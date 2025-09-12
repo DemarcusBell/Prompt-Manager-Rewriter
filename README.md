@@ -15,23 +15,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 
-## 📸 Screenshots
-
-### Before Rewrite
-https://github.com/DemarcusBell/Prompt-Manager-Rewriter/blob/main/docs/screenshots/After%20Rewrite.png
-
-### After Rewrite
-![After Rewrite](docs/screenshots/After%20Rewrite.png?raw=true)
-
-### Tampermonkey Button
-![Tampermonkey Button](docs/screenshots/Prompt%20Manger%20Rewrite.png?raw=true)
-
-### API Swagger Docs
-![Swagger Docs](docs/screenshots/Server%20Working.png?raw=true)
-
-### Server Running
-![Server Running](docs/screenshots/Server%20successful.png?raw=true)
-
 
 ✨ Features
 
