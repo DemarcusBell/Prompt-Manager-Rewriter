@@ -1,3 +1,8 @@
+# Prompt Manager Rewriter
+
+🚀 A FastAPI + Tampermonkey integration that rewrites ChatGPT prompts with multiple modes and styles.  
+Useful for cybersecurity study notes, resume prep, and productivity workflows.
+
 <img width="2048" height="1164" alt="Before Rewrite" src="https://github.com/user-attachments/assets/2c314821-1262-4e7c-905d-552a416e3599" />
 <img width="2048" height="1160" alt="After Rewrite" src="https://github.com/user-attachments/assets/d282b798-8f2a-4bb3-9a41-e2c3904631a1" />
 <img width="2048" height="1120" alt="Prompt Manger Rewrite" src="https://github.com/user-attachments/assets/d39de543-6dc7-40e4-82e4-97e75dd1663f" />
