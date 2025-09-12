@@ -24,7 +24,9 @@ uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 
 ⚡ FastAPI backend for local processing
 
-📸 Screenshots included to show real usage
+📸 Screenshots
+
+All screenshots are available in the [`docs/screenshots`](./docs/screenshots) folder:
 
 📂 Project Structure
 Prompt-Manager-Rewriter/
