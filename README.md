@@ -18,7 +18,7 @@ uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ## 📸 Screenshots
 
 ### Before Rewrite
-![Before Rewrite](docs/screenshots/Before%20Rewrite.png?raw=true)
+https://github.com/DemarcusBell/Prompt-Manager-Rewriter/blob/main/docs/screenshots/After%20Rewrite.png
 
 ### After Rewrite
 ![After Rewrite](docs/screenshots/After%20Rewrite.png?raw=true)
