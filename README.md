@@ -3,6 +3,8 @@
 🚀 A FastAPI + Tampermonkey integration that rewrites ChatGPT prompts with multiple modes and styles.  
 Useful for cybersecurity study notes, resume prep, and productivity workflows.
 
+---
+
 ## ⚡ Quick Start
 
 ```bash
@@ -12,10 +14,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+<img width="2048" height="1164" alt="Before Rewrite" src="https://github.com/user-attachments/assets/04ea3ad3-35a7-493a-a152-1e4bbcd7754c" />
+<img width="2048" height="1160" alt="After Rewrite" src="https://github.com/user-attachments/assets/5f59fdad-ae79-4efc-9a81-13e259724863" />
+<img width="2048" height="1120" alt="Prompt Manger Rewrite" src="https://github.com/user-attachments/assets/31bb4342-17b4-40b1-8131-221a9e2f885d" />
+<img width="979" height="512" alt="Server Working" src="https://github.com/user-attachments/assets/eb3fe108-bc55-4e9f-9ab2-968d1226c852" />
+<img width="2048" height="1120" alt="Server susscessful" src="https://github.com/user-attachments/assets/5b6229ca-53cd-421f-91ed-336655d0fea1" />
 
-
-<img width="2048" height="1164" alt="Before Rewrite" src="https://github.com/user-attachments/assets/2c314821-1262-4e7c-905d-552a416e3599" />
-<img width="2048" height="1160" alt="After Rewrite" src="https://github.com/user-attachments/assets/d282b798-8f2a-4bb3-9a41-e2c3904631a1" />
-<img width="2048" height="1120" alt="Prompt Manger Rewrite" src="https://github.com/user-attachments/assets/d39de543-6dc7-40e4-82e4-97e75dd1663f" />
-<img width="979" height="512" alt="Server Working" src="https://github.com/user-attachments/assets/c06773d6-49ad-4173-be81-6b25794b3a47" />
-<img width="2048" height="1120" alt="Server susscessful" src="https://github.com/user-attachments/assets/638ec2a8-4694-4923-9373-99d09649f24a" />
