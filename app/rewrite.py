@@ -1,4 +1,5 @@
-import os, json
+import os
+import json
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -15,10 +16,11 @@ Return JSON with fields:
 - questions (array of strings)
 - score (integer 0-10)."""
 
+
 def _normalize(data: dict) -> dict:
     rw = data.get("rewritten")
     if isinstance(rw, dict):
-        order = ["Role","Goal","Task","Context","Examples","Output","Rules"]
+        order = ["Role", "Goal", "Task", "Context", "Examples", "Output", "Rules"]
         parts = []
         for k in order:
             if k in rw and rw[k]:
@@ -26,13 +28,14 @@ def _normalize(data: dict) -> dict:
         data["rewritten"] = "\n".join(parts) if parts else json.dumps(rw)
     return data
 
+
 def rewrite_prompt(raw_prompt: str) -> dict:
     r = client.chat.completions.create(
         model="gpt-4o-mini",
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": REWRITE_INSTRUCTIONS},
-            {"role": "user", "content": raw_prompt}
+            {"role": "user", "content": raw_prompt},
         ],
         temperature=0.2,
     )
