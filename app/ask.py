@@ -1,4 +1,5 @@
-import os, json
+import os
+import json
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -10,13 +11,14 @@ ANSWER_INSTRUCTIONS = (
     "Return JSON with keys: answer (string), sections (array of strings)."
 )
 
+
 def ask_with_upgraded_prompt(upgraded_prompt: str) -> dict:
     r = client.chat.completions.create(
         model="gpt-4o-mini",
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": ANSWER_INSTRUCTIONS},
-            {"role": "user", "content": upgraded_prompt}
+            {"role": "user", "content": upgraded_prompt},
         ],
         temperature=0.2,
     )
